@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Pioet‘s Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Pioet‘s Blog</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 18 Jul 2025 17:58:15 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Set the Tone</title>
+      <link>http://localhost:1313/posts/set-the-tone/</link>
+      <pubDate>Fri, 18 Jul 2025 17:58:15 +0800</pubDate>
+      <guid>http://localhost:1313/posts/set-the-tone/</guid>
+      <description>&lt;p&gt;这篇博客的标题中文名是”给博客定调”。也就是说，我准备在这里放一些什么类型的文字。&lt;/p&gt;
+&lt;p&gt;我原本是做了一个微信公众号的。
+在那上面，我对内容的限制很多：基本上只写具有文学性和思考性的文字。
+至于流水账和笔记类的东西，我都觉得不符合它的格调。
+可能是我对此太过严格，好多文章后来读着发现缺少“价值”的也都被我删掉了。
+不仅是我自己，公众号平台的限制也很多。
+比如每天只能发布一个群消息，每次发布还需要扫码确认，这些都让事情变得繁琐。&lt;/p&gt;
+&lt;p&gt;现在，这是一个全权由我负责的个人博客平台了，似乎是变得格外自由了。
+这种自由体现在：任意时间、任意数量、任意修改的内容发布。
+那么，想到什么，就写什么吧。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>First Blog Online</title>
+      <link>http://localhost:1313/posts/first-blog-online/</link>
+      <pubDate>Fri, 18 Jul 2025 17:45:23 +0800</pubDate>
+      <guid>http://localhost:1313/posts/first-blog-online/</guid>
+      <description>&lt;p&gt;我在很久之前就接触了 hugo 博客框架，并在本地折腾搭建了一个 demo ，也就是这个网站的前身。&lt;/p&gt;
+&lt;p&gt;我对探索类似的新鲜玩意蛮有热情，而且并不局限在计算机工具方面。只是我也和大多数人一样，没有持续做下去的动力，导致这个博客仓库搁置了很久。&lt;/p&gt;
+&lt;p&gt;今天我又在尝试一个新东西——搭建个人科研主页。
+在检索过程中，我再次回到了 hugo 上面，那是一个叫作 hugo blox 的框架。
+现在我已经做好了个人科研主页的 demo ，但是还没有什么可以放到主页里面的成绩，让我有些头疼。
+没管太多，我先把 GitHub pages 的唯一一个域名用来托管自己的个人主页吧，毕竟这个域名是永久的。&lt;/p&gt;
+&lt;p&gt;弄好之后再看自己过去的留下的这个博客仓库，才发现它没有了托管的域名了。
+干脆，用上自己买的域名，加上 Cloudflare pages 的服务，折腾了一个小时把网站上线了，也就是现在大家看到的版本。&lt;/p&gt;
+&lt;p&gt;在做 Cloudflare pages 托管 hugo 项目（GitHub项目）的过程中，我也踩了不少坑。
+首先是 Cloudflare 默认使用一个非常老版本的 hugo 来做构建，导致一直报错，后来查找资料设置了 hugo 版本的环境变量才成功；
+最后，hugo 项目中需要设置域名（本地运行不需要），要不然就会在子页面中给定向到了 example.org/ 去了。&lt;/p&gt;
+&lt;p&gt;我清空了先前的测试博客，写了这篇文字。好了，准备去吃晚饭吧。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

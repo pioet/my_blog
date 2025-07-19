@@ -1,0 +1,7 @@
+baseURL = 'https://blog.pioet.xyz/'
+languageCode = 'zh-CN'
+title = "Pioet‘s Blog"
+theme = "PaperMod"
+
+
+
